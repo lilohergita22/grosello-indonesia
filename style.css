@@ -1,0 +1,424 @@
+/* ----------------------------------------------- navbar -------------------------------------------------*/
+.navbar-nav {
+  padding: 10px 20px 10px 20px;
+}
+
+.link-active {
+  background-color: rgba(255, 247, 234, 0.13);
+  border-radius: 5px;
+  color: pink;
+  text-decoration: none;
+  /* margin: auto; */
+  padding: 8px 180px 8px 180px;
+}
+
+.navbar-nav a {
+  width: 90px;
+  text-align: center;
+  font-size: 14px;
+  color: aquamarine;
+}
+
+.navbar-nav a:hover {
+  background-color: rgba(255, 247, 234, 0.13);
+  border-radius: 5px;
+  color: #000;
+  /* transition: 0.3s; */
+}
+
+.bg-color-nav.scrolled {
+  background-color: #fff;
+  transition: 0.7s;
+}
+
+/* .bg-color-nav.scrolled .navbar-nav {
+  background-color: #dadee1;
+  color: #314481;
+} */
+
+.bg-color-nav.scrolled .navbar-nav a {
+  color: #314481;
+}
+
+.bg-color-nav.scrolled .link-active {
+  background-color: #a3a3a3;
+}
+
+.bg-color-nav.scrolled .link-active {
+  background-color: #a3a3a354;
+}
+
+.bg-color-nav.scrolled .nav-link:hover {
+  background-color: #a3a3a354;
+}
+
+/* .search i {
+  width: 200px;
+} */
+/* ----------------------------------------------- navbar -------------------------------------------------*/
+
+/* hero */
+/* .hero img {
+  height: 700px;
+  width: 100%;
+} */
+.hero {
+  background-image: url("images/hero-1.jpg");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+/* hero */
+
+/* -----------------------------------------modal--------------------------------------------------------------- */
+.modal-judul p {
+  color: #748191;
+}
+
+.btn-ceklis-modal {
+  background-color: #ad8a30;
+  color: #fff;
+  padding: 5px 15px;
+}
+
+.btn-ceklis-modal:hover {
+  background-color: #a89565;
+  color: #fff;
+}
+
+.btn-ceklis-modal-outline {
+  border: 1px solid #ad8930;
+  color: #ad8a30;
+  padding: 5px 15px;
+}
+
+.btn-ceklis-modal-outline:hover {
+  background-color: #fffaeb;
+  color: #ad8a30;
+}
+
+.a-link-p a {
+  text-decoration: none;
+  color: #5a697d;
+}
+
+.a-link-p a:hover {
+  background-color: #e9eef5;
+  color: #5a697d;
+}
+/* -----------------------------------------modal--------------------------------------------------------------- */
+
+/* ------------modal for searching--------------- */
+.link-close-i-modal i {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cariproduk-modal {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.cariproduk-modal_input#search-cariproduk {
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.cariproduk-modal .icon {
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+/* ------------modal for searching--------------- */
+
+/* content-1 */
+.content-1 img {
+  width: 100%;
+  height: 700px;
+}
+
+.content-1-rigt-col {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  color: #a1aab5;
+}
+/* content-1 */
+/* content-2 Product */
+.product-h5 h5 {
+  color: #31445d;
+}
+
+.img-product-1 img {
+  width: 100%;
+  height: 16rem;
+}
+
+.img-product-2 {
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  width: 375px;
+  height: 375px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  margin: auto;
+}
+
+.img-product-2 p {
+  padding: 320px 0 0 0;
+  text-align: center;
+  color: #fff;
+  /* font: bold italic 20px sans-serif; */
+  /* font-weight: bold;
+  font-size: 30px; */
+}
+/* content-2 Product */
+
+/* ---------------------- new arrivals -------------------------------------*/
+/* .na {
+  width: 100%;
+  height: 100%;
+} */
+.a-link-na a {
+  text-decoration: none;
+}
+
+.img-na {
+  background-image: url("images/product-hover.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  margin: auto;
+  /* transition: 0.7s; */
+}
+
+.img-na:hover {
+  background-image: url("images/product-hover1.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  margin: auto;
+}
+
+.img-na span {
+  background-color: #31445d;
+  padding: 0px 0px 0px 0px;
+  margin-top: 90px;
+  color: #fff;
+}
+
+.text-stok {
+  font-size: 15px;
+}
+
+.text-img-na {
+  padding: 3px 0 0 0;
+  margin: 0;
+}
+
+.text-img-na p {
+  padding: 0;
+  margin: 0 0 0 5px;
+  color: #31445d;
+}
+
+.text-img-na p.text-harga {
+  color: #a1aab5;
+}
+
+.textadastok {
+  padding: 350px 0 0 0;
+}
+
+.text-beli {
+  margin-top: 50px;
+}
+
+.text-beli p {
+  color: #ad8a30;
+}
+
+.button-beli {
+  color: #ad8a30;
+  transition: 0.2s;
+}
+
+.text-product {
+  color: 31445d;
+}
+
+.text-harga {
+  color: 31445d;
+}
+
+.button-beli:hover {
+  /* background-color: #ad8a30; */
+  /* background-color: #ad8a30; */
+  background-color: rgba(255, 247, 234, 0.979);
+  /* opacity: 0.2; */
+  color: #ad8a30;
+}
+/* ---------------------- new arrivals -------------------------------------*/
+
+/* our-brand */
+.our-brands-section {
+  margin-top: 100px;
+}
+
+.our-brands-section {
+  color: #31445d;
+}
+/* our-brand */
+
+/*------------------------------------------------------------- footer ---------------------------------------------- */
+.content-footer {
+  background-color: rgb(42, 64, 124);
+  color: #fff;
+  /* margin-bottom: 50px; */
+}
+
+/* .col-left-1 {
+  margin: 0;
+  padding: 0;
+} */
+
+.col-left-1 p {
+  margin: 0;
+  padding: 0;
+}
+
+.payment-method {
+  width: 30px;
+  height: 35px;
+}
+
+.payment-method-p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.image-payment-method {
+  background-image: url("images/logo-bca.png");
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 5px;
+  background-color: pink;
+}
+
+.image-payment-method-pengiriman {
+  background-image: url("images/logo-J&T_Merah_Square.jpg");
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 5px;
+  background-color: pink;
+}
+
+.pengiriman {
+  margin-bottom: 100px;
+}
+
+.col-contact-us {
+  margin-top: 40px;
+}
+
+.col-contact-us p {
+  margin: 0;
+  padding: 0;
+}
+
+.link-col-right a:link {
+  color: #ad8a30;
+}
+
+.link-col-right a {
+  line-height: 1;
+}
+
+/* style - col 2 */
+.image-footer img {
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.link-color a:link {
+  color: #000;
+}
+
+.link-color {
+  color: #ad8930;
+}
+
+.link-col-right a:hover {
+  color: #ad8930;
+}
+/*------------------------------------------------------------- footer ---------------------------------------------- */
+
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  ====================================================================================== */
+/*  style for page akun.html */
+
+.content-1-statement-center {
+  color: #31445d;
+}
+
+.content-1-statement-center p {
+  margin: 0;
+  padding: 0;
+}
+
+.hr-style {
+  margin: 0;
+  padding: 10px 0 0 0;
+  text-decoration-color: pink;
+}
+
+.outline-option {
+  color: #ad8930;
+  margin: 0;
+  padding: 10px 0 0 0;
+  text-decoration-color: pink;
+}
+
+/* ------------------order saya---------------- */
+.order-saya {
+  background-color: #eaebea;
+  color: #566579;
+}
+
+.outline-button-cek {
+  border: 1px solid #63717f;
+  padding: 15px 10px;
+}
+/* ------------------order saya---------------- */
+/*  ====================================================================================== */
