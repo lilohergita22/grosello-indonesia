@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* ----------------------------------------------- navbar -------------------------------------------------*/
 .navbar-nav {
   padding: 10px 20px 10px 20px;
@@ -35,8 +40,13 @@
   background-color: #dadee1;
   color: #314481;
 } */
+/* ---------------jquery---------------- */
 
 .bg-color-nav.scrolled .navbar-nav a {
+  color: #314481;
+}
+
+.bg-color-nav.scrolled .link-a a {
   color: #314481;
 }
 
@@ -51,7 +61,22 @@
 .bg-color-nav.scrolled .nav-link:hover {
   background-color: #a3a3a354;
 }
+/* ---------------jquery---------------- */
 
+/* ------hover link-a : icon */
+.link-a a {
+  color: #000;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.link-a a:hover {
+  background-color: rgba(255, 247, 234, 0.13);
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  padding: 2px 2px;
+}
 /* .search i {
   width: 200px;
 } */
@@ -288,6 +313,17 @@
 }
 /* our-brand */
 
+/* -----------------content video 2------------------------------------------- */
+.content-video-2 {
+  margin: 100px 0;
+}
+
+.color-p-content-video-2 {
+  color: #5a697d;
+}
+
+/* -----------------content video 2------------------------------------------- */
+
 /*------------------------------------------------------------- footer ---------------------------------------------- */
 .content-footer {
   background-color: rgb(42, 64, 124);
@@ -375,6 +411,12 @@
 .link-col-right a:hover {
   color: #ad8930;
 }
+
+/* ------------------------------method tes payment */
+/* .tes-footer {
+  background-image: url(images/bca.png);
+} */
+/* ------------------------------method tes payment */
 /*------------------------------------------------------------- footer ---------------------------------------------- */
 
 /*  ====================================================================================== */
@@ -386,7 +428,19 @@
 /*  ====================================================================================== */
 /*  ====================================================================================== */
 /*  ====================================================================================== */
-/*  style for page akun.html */
+
+/*                                                                style for page akun.html */
+
+/* --------------- button login ------ */
+.button-login-hp {
+  color: #fff;
+  background-color: #ad8a30;
+}
+
+.button-login-hp:hover {
+  color: #fff;
+  background-color: #af934c;
+}
 
 .content-1-statement-center {
   color: #31445d;
@@ -400,17 +454,17 @@
 .hr-style {
   margin: 0;
   padding: 10px 0 0 0;
-  text-decoration-color: pink;
+  text-decoration-color: rgb(192, 255, 213);
 }
 
 .outline-option {
-  color: #ad8930;
+  color: #1a641a;
   margin: 0;
   padding: 10px 0 0 0;
-  text-decoration-color: pink;
+  text-decoration-color: rgb(192, 255, 218);
 }
 
-/* ------------------order saya---------------- */
+/* ------------------sectionorder saya---------------- */
 .order-saya {
   background-color: #eaebea;
   color: #566579;
@@ -420,5 +474,176 @@
   border: 1px solid #63717f;
   padding: 15px 10px;
 }
+
+/* ---------------------style button order saya & chat------------------ */
+.button-2-order-underline {
+  color: #ad8a30;
+  border-bottom: 2px solid #ad8a30;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button-2-order-underline:hover {
+  color: #ad8a30;
+  background-color: rgba(243, 207, 148, 0.13);
+}
+
+.button-2-chat-nounderline {
+  color: #ad8a30;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button-2-chat-nounderline:hover {
+  color: #ad8a30;
+  background-color: rgba(243, 207, 148, 0.13);
+}
+
+/* ----------------------------------------------content-2-order-saya------------------------------------------------ */
+.content-2-order-saya {
+  background-color: #eaebea;
+  color: #566579;
+  margin: 0 0 0 0;
+  height: 250px;
+}
+
+.content-2-order-saya p {
+  border: 1px solid #b2b3b2;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/*  ================================================================================================================================= */
+
+/*                                                                   for mobile responsive                                            */
+
+/*  ================================================================================================================================= */
+@media screen and (max-width: 768px) {
+  /* ----------------content hero ---------------*/
+  .hero {
+    width: 100%;
+    height: 300px;
+  }
+  /* .content-hero {
+    width: 100%;
+    height: auto;
+  } */
+  /* ----------------our brand ---------------*/
+  .our-brands-section-right img {
+    /* float: left;
+    width: 100%;
+    background-size: contain;
+    background-color: pink; */
+
+    background-color: #2196f3;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+
+  .our-brands-section-left img {
+    /* float: left;
+    width: 100%;
+    background-size: contain;
+    background-color: yellowgreen; */
+
+    background-color: #04aa6d;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+
+    /* .left {
+    float: left;
+    width: 50%; /* The width is 20%, by default */
+    /* background-color: yellow;
+  }
+  .right {
+    float: left;
+    width: 50%; /* The width is 20%, by default */
+    /* background-color: pink;
+  }  */
+
+    /* .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  */ .our-brands-section-left {
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    float: auto;
+  }
+
+  .our-brands-section-right {
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    float: auto;
+  }
+  /* .left {
+    float: left;
+    width: 50%;
+  }
+
+  .right {
+    float: left;
+    width: 50%;
+  } */
+  */
+
+  /* ----------------content video col-2 ---------------*/
+  .content-video-col-2 {
+    width: 100%;
+  }
+
+  /* ----------------content footer --------------------*/
+  .content-footer {
+    /* text-align: center; */
+    width: 100%;
+  }
+
+  .col-contact-us {
+    margin: -10px 0 0 0;
+  }
+}
+
+/*  ====================================================================================== */
 /* ------------------order saya---------------- */
 /*  ====================================================================================== */
+/* ---------------- section akun------------- */
+.content-1-akun {
+  margin-top: 100px;
+}
+/* ---------------- section akun------------- */
+
+/* ==================================================================================================================================== */
+/* ==================================================================================================================================== */
+/* ==================================================================================================================================== */
+/* ==================================================================================================================================== */
+/* ==================================================================================================================================== */
+/* STYLE FOR : NEWS PAGE */
+
+.blog-toko {
+  margin: 100px 0 0 0;
+  height: 100px;
+  color: #566579;
+}
+
+/*      section : news blog */
+.news-blog {
+  background-color: #eaebea;
+  color: #566579;
+  height: 200px;
+}
+
+.news-blog-p p {
+  color: #566579;
+  border: 1px solid #b2b3b2;
+  border-radius: 3px;
+  padding: 20px 20px;
+}
+
+.about-e-commerce {
+  color: #606f82;
+  border-radius: 10px;
+}
