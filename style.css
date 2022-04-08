@@ -918,13 +918,12 @@
   /* ==========================================================================*/
   /*                                                       mobile:best seller  */
   .box-best-seller span {
-    background-color: pink;
+    background-color: orange;
     color: #fff;
     padding: 5px 0 5px 5px;
     margin: -50px 0 0 300px;
     width: 120px; 
     border-radius: 3px;
-    justify-content: flex-end;
   }
   /* ==========================================================================*/
   
