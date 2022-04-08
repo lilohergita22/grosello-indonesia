@@ -17,7 +17,10 @@
     <!-- link Fontawesome -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 
-    <title>GROSELLO Indonesia | News </title>
+    <!-- link AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>GROSELO Indonesia | News </title>
   </head>
   <body>
       <!-- navbar -->
@@ -32,29 +35,17 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav fw-bold mx-auto">
               <a class="nav-link link-active" href="index.html">Home</a>
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="product.html">Products</a>
               <a class="nav-link" href="news.html">News</a>
               <a class="nav-link" href="about.html">About Us</a>
-              <a class="nav-link" href="#">Bag</a>
-              <a class="nav-link" href="#">Clutch</a>
-              <a class="nav-link" href="#">Pouch</a>
               <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
             </div>
             <div class="d-inline p-2 link-a">
-                <!-- <a href="#" class="search">
-                    <i class="fa-solid fa-arrow-down-wide-short"></i>
-                </a> -->
-                <a href="#" class="search" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <i class="fa-solid fa-arrow-down-wide-short"></i>
-                </a>
-            </div>
-            <div class="d-inline p-2 link-a">
-                <!-- <a href="#" class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a> -->
+                <!-- -----------------------------------searching------------------------------- -->
                 <a href="#" class="search" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
+                <!-- -----------------------------------searching------------------------------- -->
             </div>
             <div class="d-inline p-2 link-a">
                 <a href="akun.html" class="search">
@@ -65,6 +56,35 @@
         </div>
       </nav>
       <!-- navbar -->
+
+    <!-- -----------------------------------------MODAL---------------------------------------------------------------------- -->
+    <!-- ------------------------------------- modal- for searching------------------ -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="search-product link-close-i-modal">
+                    <small>
+                        <i class="fa-solid fa-arrow-left-long" data-bs-dismiss="modal" aria-label="Close"></i>
+                    </small>
+                    <!-- <input class="form-control form-control-sm mt-3 mb-3" type="text" placeholder="Cari Produk" aria-label=".form-control-sm example"> -->
+
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="Cari Produk">
+                        <label for="floatingInput" aria-placeholder="Cari Produk">Cari Produk</label>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+  <!--  ------------------------------------- modal- for searching------------------ -->
+      <!-- -----------------------------------------MODAL---------------------------------------------------------------------- -->
 
 
       <!--  ------------------------------------- modal- for sorting------------------ -->
@@ -207,12 +227,13 @@
 
 
     <!-- content-1 -->
-    <section class="blog-toko">
-        <div class="container">
+    <section class="content-1-news-blog">
+        <div class="container" data-aos="zoom-in-right" data-aos-duration="1000"
+        >
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-7">
-                    <h5>Blog Toko</h5>
+                    <h4>Blog Toko</h4>
                     <p>Temukan event, kabar terbaru, dan promosi terbaru di sini!</p>
                 </div>
             </div>
@@ -221,11 +242,10 @@
     <!-- content-1 -->
 
 
-
-
     <!-- content-2 -->
     <section class="news-blog">
-        <div class="container">
+        <div class="container" data-aos="zoom-out-right" data-aos-duration="3000"
+        >
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-7 mt-5 news-blog-p">
@@ -240,16 +260,16 @@
 
     <!-- footer -->
     <section class="content-footer">
-        <div class="container">
+        <div class="m-3">
             <div class="row">
                 <div class="col-sm-3 mt-4 col-left-1">
                     <h5 class="fw-bold">GROSELLO Indonesia</h5>
-                    <p>Phone : +628175489476</p>
+                    <p>Phone : +6282335495694</p>
                     <p>Surakarta - Central Java</p>
                     <p>Since 2012</p>
                 </div>
                 <div class="col-sm-3 mt-3 payment-method-p">
-                    <div class="payment">
+                    <!-- <div class="payment">
                         <p class="fw-bold">Metode Pembayaran done</p>
                         <div class="image-footer">
                             <img src="images/bca.png" alt="Payment Method">
@@ -275,6 +295,35 @@
                             <img src="images/logo-sicepa.png" alt="Payment Method">
                             <img src="images/logo-gosend.jfif" alt="Payment Method">
                             <img src="images/logo-J&T_Merah_Square.jpg" alt="Payment Method">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <hr>
+                    <hr>
+                    <br> -->
+                    <div class="payment">
+                        <p class="fw-bold">Metode Pembayaran done</p>
+                        <div class="image-footer">
+                            <img src="images/logo/20220328_221532.png" alt="Payment Method">
+                            <img src="images/logo/20220328_221654.png" alt="Payment Method">
+                            <img src="images/logo/20220328_223844.png" alt="Payment Method">
+                            <img src="images/logo/20220328_224129.png" alt="Payment Method">
+                            <img src="images/logo/20220328_224806.png" alt="Payment Method">
+                            <img src="images/logo/20220328_224921.png" alt="Payment Method">
+                            <img src="images/logo/20220328_225621.png" alt="Payment Method">
+                            <img src="images/logo/20220328_225718.png" alt="Payment Method">
+                            <br>
+                            <img src="images/logo/20220328_225833.png" alt="Payment Method" class="mt-2">
+                        </div>
+                    </div>
+                    <div class="pengiriman mt-3">
+                        <h5 class="fw-bold payment-method-p">Metode Pengiriman</h5>
+                        
+                        <div class="image-footer">
+                            <img src="images/logo/20220328_225150.png" alt="Payment Method">
+                            <img src="images/logo/20220328_225241.png" alt="Payment Method">
+                            <img src="images/logo/20220328_225337.png" alt="Payment Method">
                         </div>
                     </div>
 
@@ -380,8 +429,8 @@
                 </div>
                 <div class="col-sm-3 text-center col-contact-us">
                     <p class="fw-bold">Contact Us</p>
-                    <p>groselloindonesia@gmail.com</p>
-                    <p>+62876772</p>
+                    <p>groseloindonesia@gmail.com</p>
+                    <p>+6282335495694</p>
                     <p>Surakarta</p>
                     <p>Jawa Tengah</p>
                     <p>50245</p>
@@ -434,4 +483,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
