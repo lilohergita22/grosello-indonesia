@@ -205,9 +205,9 @@
   width: 100%;
   height: 16rem;
 } */
-
+/* ----------------------------------------------------------Product------------------------------------ */
 .img-product-2 {
-  background-image: url("images/hero/IMG-20220406-WA0048.jpg");
+  background-image: url("images/produk/IMG-20220406-WA0048.jpg");
   background-size: cover;
   width: 275px;
   height: 475px;
@@ -224,8 +224,54 @@
   /* font-weight: bold;
   font-size: 30px; */
 }
-/* content-2 Product */
 
+.img-product-midi-dress {
+  background-image: url("images/produk/IMG-20220406-WA0013.jpg");
+  background-size: cover;
+  width: 275px;
+  height: 475px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  margin: auto;
+}
+
+.img-product-midi-dress p {
+  padding: 420px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.img-product-outer-dress {
+  background-image: url("images/produk/IMG-20220408-WA0015.jpg");
+  background-size: cover;
+  width: 275px;
+  height: 475px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  margin: auto;
+}
+
+.img-product-outer-dress p {
+  padding: 420px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.img-product-tunik-rayon {
+  background-image: url("images/produk/IMG-20220406-WA0022.jpg");
+  background-size: cover;
+  width: 275px;
+  height: 475px;
+  margin: auto;
+}
+
+.img-product-tunik-rayon p {
+  padding: 420px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+/* content-2 Product */
+/* ----------------------------------------------------------Product------------------------------------ */
 /* ==================================================================================================================================== */
 /* ==================================================================================================================================== */
 /* ==================================================================================================================================== */
